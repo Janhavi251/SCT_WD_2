@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stopwatch-container">
+    <h2>⏱ Stopwatch & ⏳ Countdown</h2>
+
+    <!-- Mode Switch -->
+    <div class="mode-switch">
+      <label>
+        <input type="checkbox" id="modeToggle">
+        <span>Switch to Countdown</span>
+      </label>
+    </div>
+
+    <!-- Time Display -->
+    <div class="time" id="display">00:00:00:000</div>
+
+    <!-- Countdown Input -->
+    <div class="countdown-input" id="countdownInput" style="display:none;">
+      <input type="number" id="countHours" placeholder="HH" min="0">
+      <input type="number" id="countMinutes" placeholder="MM" min="0" max="59">
+      <input type="number" id="countSeconds" placeholder="SS" min="0" max="59">
+      <button onclick="setCountdown()">Set</button>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button class="start" onclick="startTimer()">Start</button>
+      <button class="pause" onclick="pauseTimer()">Pause</button>
+      <button class="reset" onclick="resetTimer()">Reset</button>
+      <button class="lap" onclick="recordLap()">Lap</button>
+    </div>
+
+    <!-- Laps -->
+    <ul class="laps" id="laps"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
