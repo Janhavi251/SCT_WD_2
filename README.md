@@ -1,21 +1,28 @@
 # SCT_WD_2
-Stopwatch
-⏱️ Advanced Stopwatch & Countdown Timer
-A modern Stopwatch & Countdown Timer Web App built using HTML, CSS, and JavaScript.
-It includes milliseconds precision, lap tracking with fastest/slowest highlight, and countdown mode with a clean glassy UI.
+# ⏱️ Advanced Stopwatch & Countdown Timer  
+A modern **Stopwatch & Countdown Timer Web App** built with **HTML, CSS, and JavaScript**.  
+It supports **milliseconds precision, lap tracking with fastest/slowest highlight, and a countdown mode** with a glassy blue UI.  
 
-🚀 Features
-⏱ Stopwatch Mode
-Start, Pause, Reset, Lap
-Milliseconds precision
-Lap counter with fastest (green) and slowest (red) lap highlight
 
-⏳ Countdown Mode
-Set Hours, Minutes, Seconds
-Timer counts down to 0
-Alerts when finished
+## 🚀 Features  
 
-🎨 Modern UI
-Glassy blue theme
-Responsive design (works on desktop & mobile)
-Smooth button hover effects
+### Stopwatch Mode  
+- Start, Pause, Reset, Lap  
+- Milliseconds precision  
+- Lap counter with **fastest (green)** and **slowest (red)** lap highlight  
+
+### Countdown Mode  
+- Set hours, minutes, and seconds  
+- Counts down to 0  
+- Alerts when finished  
+
+### UI / Experience  
+- Glassmorphism (blurry glassy) design  
+- Blue gradient background  
+- Responsive for both desktop and mobile  
+- Smooth button hover effects  
+
+---
+
+## 📂 Project Structure  
+
